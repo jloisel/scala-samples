@@ -1,14 +1,26 @@
 import org.junit.Test
-
-import fr.jloisel.scala.samples.Factorial
+import fr.jloisel.scala.samples.Factorial._
 
 class FactorialTest {
 
   /**
+   * 0! == 1
+   */
+  @Test def shouldReturnOneOfZero() {
+    assert(1 == factorial(0))
+  }
+  
+   /**
    * 1! == 1
    */
   @Test def shouldReturnOne() {
-    var fact = new Factorial
-    assert(1 == fact.compute(BigInt.int2bigInt(1)))
+    assert(1 == factorial(1))
+  }
+  
+    /**
+   * 3! == 6
+   */
+  @Test def shouldReturnSix() {
+    assert(6 == factorial(3))
   }
 }

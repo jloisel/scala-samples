@@ -1,6 +1,6 @@
 package fr.jloisel.scala.samples
 
-class ImmutableBean(name: String, description: String) {
+class ImmutableBean(val name: String, val description: String) {
   def getName = name
   def getDescription = description
 }

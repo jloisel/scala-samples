@@ -1,6 +1,6 @@
+package fr.jloisel.scala.samples
+
 import org.junit.Test
-import fr.jloisel.scala.samples.Math
-import fr.jloisel.scala.samples.Math
 
 class MathTest {
   

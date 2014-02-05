@@ -2,6 +2,7 @@
 *.log
 .cache
 .classpath
+.project
 .settings
 .settings/*
 

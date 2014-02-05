@@ -1,6 +1,7 @@
 package fr.jloisel.scala.samples
 
 import org.junit.Test
+import scala.collection.immutable._
 
 class ListAppendTest {
 	@Test def shouldReturnExpectedList = {

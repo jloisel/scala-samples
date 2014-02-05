@@ -1,6 +1,6 @@
 package fr.jloisel.scala.samples
 
-import scala.List;
+import scala.collection.immutable._
 
 object Parenthesing extends App {
 

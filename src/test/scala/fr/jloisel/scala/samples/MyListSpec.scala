@@ -3,7 +3,7 @@ package fr.jloisel.scala.samples
 import org.scalatest.FlatSpec
 import org.scalatest.Matchers
 
-class ListSpec extends FlatSpec with Matchers {
+class MyListSpec extends FlatSpec with Matchers {
 
   "An empty list" should "be empty" in {
     val list = Nil

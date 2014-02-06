@@ -1,5 +1,7 @@
 package fr.jloisel.scala.samples
 
+import scala.language.implicitConversions
+
 trait Rational {
 	implicit def int2Rational(x: Int) : Rational
 

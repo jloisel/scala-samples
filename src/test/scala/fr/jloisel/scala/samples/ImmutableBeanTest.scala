@@ -2,6 +2,8 @@ package fr.jloisel.scala.samples
 
 import org.junit.Test
 
+import scala.language.postfixOps
+
 class ImmutableBeanTest {
 
   @Test def shouldReturnName = {

@@ -32,6 +32,8 @@ object LinkedList {
 		nth(index - 1, list.tail)
 	}
 	
+	def removeAt[T](index: Int, list: List[T]) : List[T] = (list take(index)) ::: (list drop index + 1) 
+	
 	def apply[T]() : LinkedList[T] = EmptyLinkedList
 	def apply[T](first: T) = new Node(first)
 	def apply[T](first: T, second: T) = new Node(first) addToTail second
